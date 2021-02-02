@@ -50,7 +50,7 @@ function computeExpression() {
 
   let result = partialResults.reduce((previousValue, currentValue, index, array) => {
     if ('+'.includes(currentValue)) {
-      return previousValue + array[index + 1];
+      return Number(previousValue) + Number(array[index + 1]);
     } else if ('-'.includes(currentValue)) {
       return previousValue - array[index + 1];
     } else {
