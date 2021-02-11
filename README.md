@@ -1,1 +1,1 @@
-[https://martinsugasti.github.io/calculator/](https://martinsugasti.github.io/calculator/)
+[Live preview](https://martinsugasti.github.io/calculator/)
